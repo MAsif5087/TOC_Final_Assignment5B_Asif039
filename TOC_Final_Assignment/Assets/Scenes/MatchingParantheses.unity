@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1314,7 +1314,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.57e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.0901188e+27, y: 1.9272675e+31, z: 4.611403e+27,
+    w: 2.2230891e-10}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2289,7 +2290,7 @@ MonoBehaviour:
   COLLECTIBLE_PREFAB: {fileID: 7276138778675050899, guid: f048f51ae87b77640928ec66d97c89fc,
     type: 3}
   COLLECTIBLE_AMOUNT: 0
-  RANDOM_POSITION: 1
+  RANDOM_POSITION: 0
   POSITIONFILLER: 1
 --- !u!1 &1151367792
 GameObject:

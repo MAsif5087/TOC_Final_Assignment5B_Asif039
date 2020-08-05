@@ -139,7 +139,7 @@ public class SPAWNER : MonoBehaviour
     GameObject PREFAB_39;
     void Start()
     {
-        RANDOM_POSITION = -1;
+       // RANDOM_POSITION = -1;
         // InvokeRepeating("COLLECTIBLE_GENERATOR", 2.0f, 0.3f);
         COLLECTIBLE_GENERATOR();
 
@@ -189,7 +189,7 @@ public class SPAWNER : MonoBehaviour
 
 
 
-        RANDOM_POSITION = Random.Range(1, 40);
+        RANDOM_POSITION++;
         if (RANDOM_POSITION==1&&SPACE_CHECKER_1==true)
             {
                 PREFAB_1 = Instantiate(COLLECTIBLE_PREFAB, POS_1.transform.position, POS_1.transform.rotation);

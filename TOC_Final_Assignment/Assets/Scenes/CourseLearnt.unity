@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -516,8 +516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -264, y: 0.00017738}
-  m_SizeDelta: {x: 913.22217, y: 625.11145}
+  m_AnchoredPosition: {x: 83.7, y: 9.7}
+  m_SizeDelta: {x: 1608.6411, y: 644.4286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926000993
 MonoBehaviour:
@@ -555,11 +555,12 @@ MonoBehaviour:
     in Unity Games\n3. Training Reinforcement Learning AI models for Unity Games\n4.
     Logic building\n5. Enhancing C# coding skills\n6. Building Penguine Unity Game\n7.
     Building Humming Bird Unity game from scratch and training Reinforcement learning
-    Deep learning models for Humming Bird Agent\n8. Implement FSM in C# Console and
-    in Unity \n9. Building endless runner, player and enemy unity games\n10. Building
-    DFA, NFA, CFG, PDA and Turing Machines\n11. Implementing Turing Machines in Unity\n12.
-    Correlation of TOC concepts with Deep Neural Networks and Reinforcement Learning\n13.
-    Technical Report Writing in Latex\n14. Building Complex AI and Unity models \n\n"
+    and  Deep learning models for Humming Bird Agent\n8. Implement FSM in C# Console
+    and in Unity \n9. Building endless runner, player and enemy unity games\n10.
+    Building DFA, NFA, CFG, PDA and Turing Machines\n11. Implementing Turing Machines
+    in Unity\n12. Correlation of TOC concepts with Deep Neural Networks and Reinforcement
+    Learning\n13. Technical Report Writing in Latex\n14. Building Complex AI and
+    Unity models \n\n"
 --- !u!222 &926000994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -719,7 +720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: 379}
+  m_AnchoredPosition: {x: -121, y: 369}
   m_SizeDelta: {x: 1218.0973, y: 72.06406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1093192615
@@ -754,7 +755,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'In this course i have leant follwing thnigs listed below:'
+  m_Text: 'In this course i have learn follwing thnigs listed below:'
 --- !u!222 &1093192616
 CanvasRenderer:
   m_ObjectHideFlags: 0
