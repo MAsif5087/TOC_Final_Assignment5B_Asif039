@@ -53,10 +53,11 @@ public class controller : MonoBehaviour
     }
     public void QuiteApp()
     {
-
-
+        #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        Application.Quit();
+        #else
+                   Application.Quit();
+        #endif
     }
     public void return_courseleant()
     {

@@ -160,29 +160,29 @@ public class SPAWNER : MonoBehaviour
        
     }
 
-    private static bool IsMatchingPair(char character1, char character2)
-    {
-        return character1 == '(' && character2 == ')';
-    }
-    private bool AreParenthesisBalanced(IEnumerable<char> exp)
-    {
-        var stack = new Stack<char>();
+    //private static bool IsMatchingPair(char character1, char character2)
+    //{
+    //    return character1 == '(' && character2 == ')';
+    //}
+    //private bool AreParenthesisBalanced(IEnumerable<char> exp)
+    //{
+    //    var stack = new Stack<char>();
 
-        foreach (var c in exp)
-        {
-            switch (c)
-            {
-                case '(':
-                    stack.Push(c);
-                    break;
-                case ')' when stack.Count == 0:
-                case ')' when !IsMatchingPair(stack.Pop(), c):
-                    return false;
-            }
-        }
+    //    foreach (var c in exp)
+    //    {
+    //        switch (c)
+    //        {
+    //            case '(':
+    //                stack.Push(c);
+    //                break;
+    //            case ')' when stack.Count == 0:
+    //            case ')' when !IsMatchingPair(stack.Pop(), c):
+    //                return false;
+    //        }
+    //    }
 
-        return stack.Count == 0;
-    }
+    //    return stack.Count == 0;
+    //}
     void destroyprefabs()
     {
         Debug.Log("destroyprefabs");
